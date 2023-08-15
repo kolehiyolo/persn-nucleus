@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 100px;
+  
+  background-color: $header;
+
+  a {
+    text-decoration: none;
+    color: $textWhite;
+  }
+
+  .branding {
+
+  } 
+  
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+    .link.active {
+      text-decoration: underline;
+    }
+  }
+}

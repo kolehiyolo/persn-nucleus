@@ -4,7 +4,10 @@
 html {
   body {
     &, * {
-      font-family: $montserrat;
+      border: none;
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
     }
   }
 }
@@ -14,5 +17,12 @@ html {
     background-color: $backgroundDark;
     color: $textWhite;
 
+    @import 'components/Header/Header.css';
+
+    .main {
+      @import 'pages/Home/Home.css';
+      @import 'pages/About/About.css';
+      @import 'pages/Contact/Contact.css';
+    }
   }
 }
