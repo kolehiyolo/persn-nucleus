@@ -1,0 +1,18 @@
+@import 'styles/colors.css';
+@import 'styles/fonts.css';
+
+html {
+  body {
+    &, * {
+      font-family: $montserrat;
+    }
+  }
+}
+
+html {
+  body {
+    background-color: $backgroundDark;
+    color: $textWhite;
+
+  }
+}

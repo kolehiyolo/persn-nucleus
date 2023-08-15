@@ -1,0 +1,20 @@
+/* * Importing code from other CSS files */
+@import 'colors.css';
+
+/* * Custom CSS Selectors */
+@custom-selector :--sampleSelector h1, h2, h3, h4, h5, h6;
+@custom-media --viewport-sample (width <= 500px);
+$sampleVariable: 0px;
+
+/* * Using custom stuff */
+:--sampleSelector {
+  @media(--viewport-sample) {
+    width: $sampleVariable;
+  }
+}
+
+/* * Using existing width and height of images */
+.card {
+  width: width('image.png');
+  height: height('image.png');
+}
