@@ -9,7 +9,7 @@ import Contact from './pages/Contact/Contact.jsx';
 export default function App() {
   return (
     <Router>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/about" exact element={<About />} />

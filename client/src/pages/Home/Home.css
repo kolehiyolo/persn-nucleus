@@ -1,3 +1,10 @@
-.home {
-  
+&.home {
+  @import '../../components/ToggleRadio/ToggleRadio.css';
+  @import '../../components/Timer/Timer.css';
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
