@@ -1,10 +1,31 @@
 &.home {
   @import '../../components/ToggleRadio/ToggleRadio.css';
   @import '../../components/Timer/Timer.css';
+  @import '../../components/Settings/Settings.css';
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 50px;
+  position: relative;
+  background: #232323;
+  
+  .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: lowercase;
+    gap: 10px;
+  }
+
+  .settings-button {
+    background: none;
+    border: none;
+
+    img {
+      width: 30px;
+    }
+  }
 }
